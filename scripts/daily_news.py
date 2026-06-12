@@ -82,6 +82,11 @@ def get_today_str():
     return datetime.datetime.now().strftime("%Y-%m-%d")
 
 
+def get_output_path(title: str) -> Path:
+    safe_title = clean_filename(title)
+    return OUTPUT_DIR / f"{get_today_str()}-{safe_title}.md"
+
+
 def extract_text_from_html(html: str) -> str:
     soup = BeautifulSoup(html, "html.parser")
 
@@ -132,6 +137,11 @@ def select_article():
             summary = entry.get("summary", "")
 
             if not link:
+                continue
+
+            output_path = get_output_path(title)
+            if output_path.exists():
+                print(f"Skipping existing article: {output_path}")
                 continue
 
             article_text = fetch_article_text(link)
@@ -276,10 +286,7 @@ def main():
 
     article = select_article()
 
-    today = get_today_str()
-    safe_title = clean_filename(article["title"])
-    filename = f"{today}-{safe_title}.md"
-    output_path = OUTPUT_DIR / filename
+    output_path = get_output_path(article["title"])
 
     if output_path.exists():
         print(f"File already exists: {output_path}")
