@@ -1,7 +1,6 @@
 import os
 import re
 import datetime
-import hashlib
 from pathlib import Path
 
 import feedparser
@@ -30,15 +29,20 @@ RSS_FEEDS = [
 OUTPUT_DIR = Path("EnglishReading")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
-DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
-
-client = OpenAI(
-    api_key=DEEPSEEK_API_KEY,
-    base_url="https://api.deepseek.com"
-)
-
-
 # ========== 工具函数 ==========
+
+def get_deepseek_client():
+    """延迟初始化 DeepSeek 客户端，确保 API Key 已设置"""
+    api_key = os.getenv("DEEPSEEK_API_KEY") or os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        raise RuntimeError(
+            "DeepSeek API Key 未设置。请在 GitHub 仓库 Settings → Secrets and variables → Actions 中 "
+            "添加 DEEPSEEK_API_KEY secret。"
+        )
+    return OpenAI(
+        api_key=api_key,
+        base_url="https://api.deepseek.com"
+    )
 
 def clean_filename(text: str) -> str:
     text = re.sub(r"[\\/:*?\"<>|]", "", text)
@@ -118,7 +122,7 @@ def select_article():
     raise RuntimeError("No valid article found from RSS feeds.")
 
 
-def ask_deepseek(title: str, source: str, article: str) -> str:
+def ask_deepseek(client: OpenAI, title: str, source: str, article: str) -> str:
     """
     调用 DeepSeek，把英文文章整理为中文学习笔记。
     """
@@ -192,8 +196,7 @@ def build_markdown(article_info: dict, ai_note: str) -> str:
 
 
 def main():
-    if not DEEPSEEK_API_KEY:
-        raise RuntimeError("DEEPSEEK_API_KEY is not set.")
+    client = get_deepseek_client()
 
     article = select_article()
 
@@ -207,6 +210,7 @@ def main():
         return
 
     ai_note = ask_deepseek(
+        client=client,
         title=article["title"],
         source=article["source"],
         article=article["text"]
