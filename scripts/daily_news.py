@@ -13,16 +13,44 @@ from openai import OpenAI
 
 RSS_FEEDS = [
     {
-        "name": "Reuters World",
-        "url": "https://feeds.reuters.com/Reuters/worldNews"
+        "name": "BBC Future",
+        "url": "https://www.bbc.com/future/feed.rss"
     },
     {
-        "name": "BBC World",
-        "url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+        "name": "BBC Travel",
+        "url": "https://www.bbc.com/travel/feed.rss"
     },
     {
-        "name": "Nature News",
-        "url": "https://www.nature.com/nature.rss"
+        "name": "Smithsonian Science",
+        "url": "https://www.smithsonianmag.com/rss/science-nature/"
+    },
+    {
+        "name": "Smithsonian History",
+        "url": "https://www.smithsonianmag.com/rss/history/"
+    },
+    {
+        "name": "Smithsonian Innovation",
+        "url": "https://www.smithsonianmag.com/rss/innovation/"
+    },
+    {
+        "name": "The Conversation Education",
+        "url": "https://theconversation.com/us/education/articles.atom"
+    },
+    {
+        "name": "The Conversation Environment",
+        "url": "https://theconversation.com/us/environment/articles.atom"
+    },
+    {
+        "name": "The Conversation Technology",
+        "url": "https://theconversation.com/us/technology/articles.atom"
+    },
+    {
+        "name": "ScienceDaily Science",
+        "url": "https://www.sciencedaily.com/rss/top/science.xml"
+    },
+    {
+        "name": "ScienceDaily Environment",
+        "url": "https://www.sciencedaily.com/rss/top/environment.xml"
     }
 ]
 

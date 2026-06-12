@@ -52,6 +52,13 @@ obsidian-news-auto/
 
 ## RSS 数据源
 
-- Reuters World
-- BBC World
-- Nature News
+- BBC Future
+- BBC Travel
+- Smithsonian Science
+- Smithsonian History
+- Smithsonian Innovation
+- The Conversation Education
+- The Conversation Environment
+- The Conversation Technology
+- ScienceDaily Science
+- ScienceDaily Environment
