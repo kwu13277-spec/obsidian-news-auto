@@ -1,0 +1,688 @@
+SOURCE_PDF: C:\Users\Kingwu\Desktop\notebook\note\COPD\pdf\AnnalsATS.202102-171OC.pdf
+PAGES: 8
+
+
+
+--- PAGE 1 ---
+ORIGINAL RESEARCH
+Genetic Risk and Chronic Obstructive Pulmonary Disease
+Independently Predict the Risk of Incident Severe COVID-19
+Qing-Mei Huang1,2*, Pei-Dong Zhang1*, Zhi-Hao Li1, Jian-Meng Zhou1, Dan Liu1, Xi-Ru Zhang1, Wen-Fang Zhong1,
+Yu-Jie Zhang1, Dong Shen1, Fen Liang1, Wei-Qi Song1, Shi-Gui Yang3, Wei-Jie Guan4,5 ‡, and Chen Mao1‡
+1Department of Epidemiology, School of Public Health, Southern Medical University, Guangzhou, Guangdong, China;2Longgang
+Center for Disease Control and Prevention in Shenzhen, Shenzhen, China;3State Key Laboratory for Diagnosis and Treatment of
+Infectious Diseases, Collaborative Innovation Center for Diagnosis and Treatment of Infectious Diseases, The First Affiliated HospitalCollege of Medicine, Zhejiang University, Hangzhou, China;4State Key Laboratory of Respiratory Disease and National Clinical
+Research Center for Respiratory Disease, the First Affiliated Hospital of Guangzhou Medical University, Guangzhou Medical University,
+Guangzhou, China; and5Department of Thoracic Surgery, Guangzhou Institute of Respiratory Disease, First Affiliated Hospital of
+Guangzhou Medical University, Guangzhou, Guangdong, China
+ORCID ID: 0000-0002-6537-6215 (C.M.).
+Abstract
+Rationale: Both genetic variants and chronic obstructive pulmonary
+disease (COPD) contribute to the risk of incident severe coronavirusdisease (COVID-19). Whether genetic risk of incident severeCOVID-19 is the same regardless of preexisting COPD is unknown.
+Objectives: In this study, we aimed to investigate the potential
+interaction between genetic risk and COPD in relation to severe
+COVID-19.
+Methods: We constructed a polygenic risk score for severe
+COVID-19 by using 112 single-nucleotide polymorphisms in
+430,582 participants from the UK Biobank study. We examined
+the associations of genetic risk and COPD with severe COVID-19by using logistic regression models.
+Results: Of 430,582 participants, 712 developed severe COVID-19
+as of February 22, 2021, of whom 19.8% had preexisting COPD.Compared with participants at low genetic risk, those at
+intermediate genetic risk (odds ratio [OR], 1.34; 95% confidence
+interval [CI], 1.09 –1.66) and high genetic risk (OR, 1.50; 95% CI,
+1.18 –1.92) had higher risk of severe COVID-19 ( Pfor
+trend = 0.001), and the association was independent of COPD ( Pfor
+interaction = 0.76). COPD was associated with a higher risk ofincident severe COVID-19 (OR, 1.37; 95% CI, 1.12 –1.67; P= 0.002).
+Participants at high genetic risk and with COPD had a higher risk
+of severe COVID-19 (OR, 2.05; 95% CI, 1.35 –3.04; P,0.001) than
+those at low genetic risk and without COPD.
+Conclusions: The polygenic risk score, which combines
+multiple risk alleles, can be effectively used in screening for high-risk populations of severe COVID-19. High genetic risk correlates
+with a higher risk of severe COVID-19, regardless of preexisting
+COPD.
+Keywords: severe COVID-19; genetic risk; COPD
+This article is open access and distributed under the terms of the Creative Commons Attribution Non-Commercial No Derivatives License 4.0 .
+For commercial usage and reprints, please e-mail Diane Gern (dgern@thoracic.org).
+*These authors contributed equally to this work.
+‡These authors contributed equally to this work.
+Supported by the Guangdong Province Higher Vocational Colleges and Schools Pearl River Scholar Funded Scheme (2019), the Zhejiang
+University special scientiﬁc research fund for COVID-19 prevention and control (2020XGZX041), and Zhongnanshan Medical Foundation ofGuangdong Province. This research has been conducted using the UK Biobank resource under application number 43795.
+Data availability: All available data are published in the current manuscript.
+Author Contributions : Conception and study design: Q.-M.H., P.-D.Z., S.-G.Y., W.-J.G., and C.M. Acquisition, analysis, or interpretation of data:
+Q.-M.H., P.-D.Z., Z.-H.L., J.-M.Z., D.L., X.-R.Z., W.-F.Z., Y.-J.Z., D.S., F.L., and W.-Q.S. Manuscript preparation and critical revision: Q.-M. H.,
+P.-D.Z., S.-G.Y., W.-J.G., and C.M. Obtained funding: C.M.
+Correspondence and requests for reprints should be addressed to Chen Mao, Ph.D., Department of Epidemiology, School of Public Health,
+Southern Medical University, Guangzhou 510515, Guangdong, China. E-mail: maochen9@smu.edu.cn.
+This article has an online supplement, which is accessible from this issue’s table of contents at www.atsjournals.org .
+Ann Am Thorac Soc Vol 19, No 1, pp 58–65, Jan 2022
+Copyright ©2022 by the American Thoracic Society
+DOI: 10.1513/AnnalsATS.202102-171OCInternet address: www :atsjournals :org
+58 AnnalsATS Volume 19 Number 1 | January 2022
+
+--- PAGE 2 ---
+The ongoing pandemic due to severe acute
+respiratory syndrome coronavirus 2 (SARS-CoV-2) has affected more than 149 millionpeople worldwide as of April 29, 2021 (1),with the median infection fatality rate of0.00 –1.63% (2). The severity of coronavirus
+disease (COVID-19) ranged from mild tosevere illness that might readily result ind e a t h( 3 ) .As u r g eo fs e v e r ec a s e sr e q u i r i n gi n t e n s i v ec a r eu n i t( I C U )a d m i s s i o nh a sb e e nobserved (4). There has been a compellingneed to identify the risk factors of severeCOVID-19, which would enable the riskstratiﬁcation, triage, and optimization of
+resource allocation.
+Using a case –control design, recent
+genome-wide association studies (GWASs)have identi ﬁed several DNA polymorphisms
+that might substantially in ﬂuence the risk of
+developing severe COVID-19, includingrs11385942 on LZTFL1 (leucine zipper
+transcription factor-like 1), rs657152 on ABO
+(ABO blood group), rs429358 on APOE
+(apolipoprotein E), rs142984500 onangiotensin-converting enzyme 2, andrs12329760 on TMPRSS2 (transmembrane
+serine protease 2) (5 –9). However, the effect
+size of each of these GWAS variants isgenerally small. For example, some peoplewho test negative for risk gene mutationsmay be at high genetic risk because of otherunmeasured genetic factors. Although eachindividual variant only explains a smallproportion of severe COVID-19 risk, thecombination of many genetic variants into asingle polygenic risk score (PRS) explains agreater proportion of the risk. Therefore,aggregating multiple single-nucleotidepolymorphisms (SNPs) to generate acomposite PRS might help explain thegenetic risk of polygenic diseases and providea quantitative measure of the genetic risk (10,11). A previous study has revealed astatistically signi ﬁcant association of PRS
+based on six DNA polymorphisms and riskof incident severe COVID-19 among athletes(12). However, the previous study waslimited by the relatively small sample sizeand the relatively few genetic polymorphismsin the PRS assessment. PRSs based on largerGWASs and larger sample size, andincluding more variants, tend to exhibithigher predictive performance (13).
+According to the previous studies, both
+angiotensin-converting enzyme 2 andTMPRSS2 w e r ef o u n dt ob es i g n i ﬁcantly
+upregulated in patients with chronicobstructive pulmonary disease (COPD)
+compared with healthy subjects, and theABO locus in ﬂuences blood biomarker
+measurements in COPD (14 –16).
+Accumulating evidence indicated that COPDm i g h tb ear i s kf a c t o rf o rs e v e r eC O V I D - 1 9(17–21). For instance, a meta-analysis
+focusing on comorbidities in 1,558 patientsdocumented a high odds ratio (OR) forsevere COVID-19 in patients withpreexisting COPD (OR, 5.97), as comparedwith the relatively lower OR of othercommon comorbidities such as hypertension(OR, 2.29), diabetes (OR, 2.47), andcardiovascular diseases (OR, 3.89) (18).However, the relevance of composite PRSand COPD in individual patients with severeCOVID-19 remains uncertain, and theinterplay between genetic risk and COPD inthe context of severe COVID-19 is largelyunknown.
+Therefore, based on the UK Biobank
+study, we investigated the associationbetween genetic risk and incident severeCOVID-19 in different subgroups with orwithout preexisting COPD. We also soughtto investigate the potential interactionsbetween genetic risk and COPD.
+Methods
+Study Population
+The study population and design of the UKBiobank study have been describedpreviously (22 –24). Brie ﬂy, the UK Biobank
+study is a prospective, population-based
+cohort study with more than 500,000participants aged 40 –69 years who attended
+one of the 22 participating sites across theUK (England, Scotland, and Wales) between2006 and 2010. The study collects extensivedata from questionnaires, interviews, healthrecords, physical measures, biologicalsamples, and radiology. Blood samples arealso obtained for genotyping. For allparticipants, retrospective and prospectivelinkage to electronic health data are available,including Hospital Episode Statistics (HES).The HES provides detailed information forparticipants admitted to the hospital andincludes coded data on the diagnoses. Dataon mortality are updated from NationalHealth Service Digital for participants inEngland and Wales and from the NationalHealth Service Central Register forparticipants in Scotland. The UK Biobankstudy received approval from the North
+West Multicenter Research EthicsCommittee (11/NW/0382), and all
+participants provided informed consent.
+Participants were excluded if they
+withdrew from the study ( n=1 , 2 9 8 ) ,t h e i r
+genotype data did not meet the qualitycontrol conditions, they were highly related
+individuals (second degree or greater:
+kinship coef ﬁcient>0.0884), or they were
+non-European ancestry ( n= 44,072). In
+addition, participants who died beforeJanuary 31, 2020, that is, the start of theCOVID-19 outbreak in the UK, were alsoexcluded ( n= 26,572). In total, our analysis
+included 430,582 participants (Figure 1).
+Genotyping and PRS
+T h eG W A Sd a t aw e r ed e r i v e df r o m
+participants of predominantly Europeanancestry included in 14 cohort studies, whichcollectively consisted of 4,933 cases and1,398,672 controls, released on October 20,2020 (Table E1 in the online supplement).Details regarding the cohort-speci ﬁc
+genotyping platform and risk scores are
+available at www.covid19hg.org (6). The PRS
+was calculated by using an additive model forthe common genetic variants associated withsevere COVID-19. Brie ﬂy, the number of
+risk alleles (0, 1, or 2) for individual
+participants was summed by multiplication
+with the effect size (25 –27). The SNPs and
+effect sizes were obtained and pruned by P
+value,1310
+26, linkage disequilibrium
+R2,0.1, and minor allele frequency .1%
+from the previously reported GWAS studies(6, 25 –28). A total of 112 SNPs was taken
+into account (Table E2). The PRS was then
+z-standardized based on the values for all
+individual participants and categorized intothree risk categories: low (the lowestquintile), intermediate (quintiles 2 –4), and
+high (the highest quintile) risk, as described
+previously (29, 30).
+Ascertainment of COPD
+In the present study, the spirometry, self-reported diagnoses, and diagnostic codes,
+covering the period 2006 –2010 (i.e., during
+study enrollment) to January 2020, were usedto identify individuals with diagnosedCOPD. Details of the spirometry protocol inthe UK Biobank have been previously
+reported (22, 31). Trained medical
+technicians and nurses at the UK BiobankAssessment Centre performed spirometricORIGINAL RESEARCH
+Huang, Zhang, Li, et al. : Genetic Risk, COPD, and Severe COVID-19 59
+
+--- PAGE 3 ---
+measurements on participants using the
+Vitalograph Pneumotrac 6800 in accordance
+with American Thoracic Society and
+European Respiratory Society guidelines.
+Each participant was given three attempts toobtain two reproducible maneuvers (32). The
+reproducibility of the ﬁrst two blows was
+compared using the spirometer software, and
+if the differences between both forced vital
+capacity (FVC) and forced expiratoryvolume in 1 second (FEV
+1)o ft h e ﬁrst two
+blows were more than 5%, a third blow was
+required. No post-bronchodilator measures
+were performed. Acceptability of spirometry
+data was assessed by quality appraisal of a
+sample of maneuvers, as previously described
+(33). COPD outcomes were de ﬁned by the
+Global Lung Function Initiative 2012
+reference values for the lower limit of normal
+(34), which were computed using the Global
+Lung Function Initiative R macro (35).
+Individuals with an FEV 1/FVC ratio below
+the lower limit of normal were classi ﬁed as
+having COPD (36). In addition, to avoidmisdiagnosis of COPD, COPD was
+supplementally de ﬁned based on the codes
+from ﬁelds 20002 (self-reported diagnoses)
+and the International Classi ﬁcation of
+Diseases, Ninth and Tenth Revision codes
+(ICD-9 and ICD-10). Detailed information
+on the diagnosis codes is provided in TableE3. Of 7,901 participants who were excludedfrom consideration of COPD diagnosis withspirometry because of smoking tobacco or
+using inhalers 1 hour before testing, 793
+participants had a diagnosis of COPD basedon self-reported diagnoses, ICD-9, and ICD-10.
+Ascertainment of Severe COVID-19
+In the present study, severe COVID-19was de ﬁned as an admission to an ICU
+according to data from the HES, deathcaptured from 1 day before to up to 14
+days after the SARS-CoV-2 test date, or
+death with COVID-19 (ICD-10 codesU0.71) as the underlying cause accordingto data from the death registers (last
+updated on February 22, 2021).
+Ascertainment of Covariates
+The covariates of the present study are asf o l l o w s :a g e ;s e x ;e d u c a t i o n ;
+socioeconomic status (household income
+and Townsend deprivation index [TDI]);physical activity; smoking status; passive
+smoking; alcohol consumption; body
+mass index (BMI); diet; comorbidities,including cardiovascular disease (CVD),
+hypertension, diabetes, chronic
+respiratory infection, and asthma; the
+relatedness of individuals in the sample;
+andﬁrst 10 principal components of
+ancestry. The TDI is a composite measure
+of poverty based on unemployment,
+non –car ownership, non –home
+ownership, and household crowding, with
+negative values indicating higher
+socioeconomic status (37). BMI (kg/m
+2)
+was calculated for all participants by UK
+Biobank based on their measured weight
+and height. Duration of physical activitywas ascertained with the touchscreen
+questionnaires based on the validated
+International Physical Activity
+Questionnaire (38). A healthy diet was
+calculated based on the DietaryApproaches to Stop Hypertension
+recommendation, which has been shown
+to be associated with multiple cancer types(39, 40). Passive smoking exposure refers
+to exposure more than 1 hour per week to
+other people ’s tobacco smoke at home or
+outside. The information pertaining to the
+comorbidities was derived from the
+electronic medical records. Details ofthese measurements can be found on the
+website of the UK Biobank ( www.
+ukbiobank.ac.uk ).
+Statistical Analysis
+T h eb a s e l i n ec h a r a c t e r i s t i c so ft h ei n c l u d e d
+participants were summarized by the severity
+of COVID-19 as numbers (percentages) for
+categorical variables, as means (standarddeviations) for normal continuous variables,
+and medians (interquartile ranges) for
+skewed variables.
+Logistic regression models were used
+to assess the associations of genetic risk,
+COPD, and their combination with severe
+COVID-19. The ORs together with the
+95% con ﬁdence intervals (CIs) were
+calculated. Two sets of models were used.
+Model 1 was adjusted for age (years), sex
+(male or female), education (lower or high502,524 UK Biobank participants
+457,154 Unrelated participants of European
+descendent with genotypes under quality control
+430,582 Included in the analysis501,226 Followed up1,298 Excluded
+ 1,298 Withdrew from the study
+44,072 Excluded
+ 14,174 Genetic data unavailable
+ 371 Mismatched sex
+ 967 Outliers for heterozygosity or missing rate
+ 649 Sex chromosome aneuploidy
+ 1,164 Highly related individuals
+ 28,789 Non-European Ethnicity
+26,572 Excluded
+ 26,572 Died before January 31, 2020
+Figure 1. Flow of participants through the study.ORIGINAL RESEARCH
+60 AnnalsATS Volume 19 Number 1 | January 2022
+
+--- PAGE 4 ---
+quali ﬁcation), household income
+(,£18,000, £18,000 –£30,999,
+£31,000 –£51,999, £52,000 –£100,000, or
+.£100,000), TDI, physical activity (some
+or no), smoking status (never, former, orcurrent), passive smoking (no or yes),alcohol consumption (never, 1 –2, 3 –4,>5
+times per week), BMI (kg/m
+2), Dietary
+Approaches to Stop Hypertension score,CVD (no or yes), hypertension (no oryes), diabetes (no or yes), chronic
+respiratory infection (no or yes), asthma(no or yes), relatedness of individuals inthe sample, and ﬁrst 10 principal
+components of ancestry. In model 2,additional variables were controlled forpreexisting COPD in the analysis of theassociation between genetic risk andsevere COVID-19 and PRS in the analysisof the association between COPD andsevere COVID-19. In addition, we
+included an interaction term in theregression model to test for any statisticalinteraction between the genetic risk
+categories and COPD.
+We performed subgroup analyses
+stratiﬁed by age ( ,60 or>60 yr), sex (male
+or female), and chronic respiratory infection
+(yes or no). For sensitivity analysis, werestricted analysis to participants with SARS-CoV-2 test, restricted analysis to participants
+with positive SARS-CoV-2 test result,
+excluded participants based on sharedrelatedness (third degree or greater: kinshipcoefﬁcient>0.0442), restricted COPD with
+spirometric de ﬁnition, and excluded
+participants who died of other causes afterFebruary 1, 2020, because they were notfollowed-up for a suf ﬁciently long period for
+further ascertainment of the acquisition of
+COVID-19. Furthermore, to verify thepredictive performance of PRS for severeCOVID-19, we estimated the area under the
+curve using receiver operating characteristic
+(ROC).
+All statistical analyses were performed
+in R software, version 3.6 (R Project for
+Statistical Computing).
+Results
+Participant Characteristics
+Table 1 shows the participants ’
+characteristics. Of the 430,582 participants,
+237,533 (55.2%) were female, with a meanage of 56.5 years. Overall, 45,648 (10.6%) ofthe 430,582 participants had preexisting
+COPD. As of February 22, 2021, 712 severe
+COVID-19 events occurred. Compared withthe general population, participants withsevere COVID-19 seem to be older, be male,
+be current smokers, and have higher TDI,
+lower household income, and lowereducational attainment. In addition, theywere more likely to have a higher prevalence
+of preexisting cardiovascular disease,
+hypertension, diabetes, and COPD (19.8%)and had higher genetic risks.
+Association between Genetic Risk
+and Incident Severe COVID-19
+The calculated PRS was normally distributed
+( F i g u r eE 1 ) .T a b l e2p r e s e n t st h eO R so f
+participants at intermediate and high geneticrisk compared with those at low genetic risk.Higher genetic risk was associated with a
+higher risk of incident severe COVID-19 ( P
+for trend = 0.001). Participants at highTable 1. Characteristics of the participants
+CharacteristicsOverall
+(N=430,582 )General
+Population
+(n=429,870 )Incident Severe
+COVID-19
+(n=712)
+Age, yr, mean (SD) 56.5 (8.0) 56.5 (8.0) 62.1 (6.6)
+Sex
+Female 237,533 (55.2) 237,305 (55.2) 228 (32.0)Male 193,049 (44.8) 192,565 (44.8) 484 (68.0)
+BMI, kg/m2, mean (SD) 27.3 (4.7) 27.3 (4.7) 29.8 (5.5)
+DASH score, mean (SD) 22.2 (4.0) 22.2 (4.0) 21.9 (4.2)
+Physical activity, min/wk
+Regular physical activity 251,946 (58.5) 251,546 (58.5) 400 (56.2)Some physical activity 130,825 (30.4) 130,626 (30.4) 199 (27.9)No regular physical activity 47,811 (11.1) 47,698 (11.1) 113 (15.9)
+Smoking status
+Never 236,689 (55.0) 236,437 (55.0) 252 (35.4)
+Former 151,344 (35.1) 150,986 (35.1) 358 (50.3)
+Current 42,549 (9.9) 42,447 (9.9) 102 (14.3)
+Passive smoking
+No 341,713 (79.4) 341,185 (79.4) 528 (74.2)Yes 88,869 (20.6) 88,685 (20.6) 184 (25.8)
+Alcohol consumption, times
+per wk
+Never 122,261 (28.4) 122,000 (28.4) 261 (36.7)1–2 114,078 (26.5) 113,886 (26.5) 192 (27.0)
+3–4 104,045 (24.2) 103,918 (24.2) 127 (17.8)
+>5 90,198 (20.9) 90,066 (21.0) 132 (18.5)
+TDI, median (interquartile
+range)22.3 (23.7 to 0.2) 22.3 (23.7 to 0.2) 21.2 (23.1 to 1.9)
+Household income, £
+,18,000 94,566 (22.0) 94,248 (21.9) 318 (44.7)
+18,000 –30,999 110,169 (25.6) 109,985 (25.6) 184 (25.8)
+31,000 –51,999 113,996 (26.5) 113,878 (26.5) 118 (16.6)
+52,000 –100,000 88,515 (20.6) 88,434 (20.6) 81 (11.4)
+.100,000 23,336 (5.4) 23,325 (5.4) 11 (1.5)
+Education
+Lower qualification 221,944 (51.5) 221,472 (51.5) 472 (66.3)Higher qualification 208,638 (48.5) 208,398 (48.5) 240 (33.7)
+Comorbidities
+CVD 22,953 (5.3) 22,818 (5.3) 135 (19.0)Hypertension 100,818 (23.4) 100,461 (23.4) 357 (50.1)
+Diabetes 28,398 (6.6) 28,231 (6.6) 167 (23.5)
+Chronic respiratory infection 8,602 (2.0) 8,585 (2.0) 17 (2.4)Asthma 56,204 (13.1) 56,078 (13.0) 126 (17.7)COPD 45,648 (10.6) 45,507 (10.6) 141 (19.8)
+Genetic risk category
+Low 86,099 (20.0) 85,990 (20.0) 109 (15.3)Intermediate 258,363 (60.0) 257,925 (60.0) 438 (61.5)
+High 86,120 (20.0) 85,955 (20.0) 165 (23.2)
+Definition of abbreviations : BMI = body mass index; COPD = chronic obstructive pulmonary
+disease; COVID-19 = coronavirus disease; CVD = cardiovascular disease; DASH = DietaryApproaches to Stop Hypertension; SD = standard deviation; TDI = Townsend deprivation index.Data are presented as n(%) unless otherwise indicated.ORIGINAL RESEARCH
+Huang, Zhang, Li, et al. : Genetic Risk, COPD, and Severe COVID-19 61
+
+--- PAGE 5 ---
+genetic risk had a signi ﬁcantly higher risk of
+incident severe COVID-19 than those at lowgenetic risk, with an adjusted odds ratio of1.50 (95% CI, 1.18 –1.92; P= 0.001). Results
+were broadly similar when the PRS wasdivided into quintiles (Table E4). Furtheradjustment for COPD (model 2) did notmaterially alter this ﬁnding (Table 2). The
+association between genetic risk and the riskof incident severe COVID-19 was similar
+in subgroups that were strati ﬁed by age,
+sex, and chronic respiratory infection ( P
+for interaction .0.05; Tables E5 and E6).
+In the sensitivity analysis, these results didnot markedly change after restrictinganalyses to participants with the SARS-CoV-2 test (Table E7) and participantswith positive SARS-CoV-2 test results(Table E8).
+ROC curves were constructed and
+area under the curve was calculated for thefollowing combinations: model 1: age, sex,and comorbidities (CVD, hypertension,diabetes, chronic respiratory infections,asthma, and COPD); model 2: age, sex,comorbidities, and PRS (Figure E2). Forthe base model, model 1, area under the
+curve was 0.789 (95% CI, 0.772 –0.806),
+whereas that for model 2 was 0.794 (95%CI, 0.777 –0.810; P= 0.002). Areas under
+the ROC are nearly identical, although the
+difference is statistically signi ﬁcant
+because of the large sample size.
+Association between COPD and
+Incident Severe COVID-19
+Table 3 presents the ORs of participants with
+COPD compared with those without.Participants with COPD had a higher risk ofincident severe COVID-19 than thosewithout, with an adjusted OR of 1.37 (95%CI, 1.12 –1.67; P= 0.002). Further adjustment
+for the PRS (model 2) did not materially alterthis result (Table 3). We observed asigniﬁcant interaction effect between COPD
+and sex on the risks of severe COVID-19 ( P
+for interaction = 0.006; Table E9). However,
+the association between COPD and the risk
+of severe COVID-19 was similar insubgroups that were strati ﬁed by age and
+chronic respiratory infection ( Pfor
+interaction .0.05; Tables E9 and E10).Association of Genetic Risk and
+COPD with Incident Severe COVID-19
+Figure 2 shows the risk of incident severe
+COVID-19 for the combined genetic riskand COPD. An additive effect on the riskof severe COVID-19 was found for thegenetic risk and COPD. The highest riskof incident severe COVID-19 wasobserved in participants at high geneticrisk and with preexisting COPD (OR,2.05; 95% CI, 1.35 –3.04; P,0.001). The
+test for statistical interaction between thePRS and COPD in relation to the incidentsevere COVID-19 was not signi ﬁcant
+(P=0 . 7 6 ) .F u r t h e r m o r e ,t h e r ei sn o
+statistically signi ﬁcant association
+between the PRS and COPD among thecontrol population ( Pfor trend = 0.75;
+Table E11). In the sensitivity analysis,these results did not markedly changeafter excluding participants based onshared relatedness (Table E12), excludingparticipants who died for other causesafter February 1, 2020 (Table E13), andrestricting COPD with spirometricdeﬁnition (Table E14).Table 2. Risk of severe COVID-19 according to genetic risk
+Genetic RiskTotal No. of
+ParticipantsNo. of
+Severe
+COVID-19
+Cases ( %)Model 1 * Model 2†
+OR (95 %CI)P
+ValuePfor
+Trend OR (95 %CI)P
+ValuePfor
+Trend
+Low 86,099 109 (0.13) 1 (reference) 0.001 1 (reference) 0.001
+Intermediate 258,363 438 (0.17) 1.34 (1.09 –1.66) 0.006 1.34 (1.09 –1.66) 0.006
+High 86,120 165 (0.19) 1.50 (1.18 –1.92) 0.001 1.50 (1.18 –1.92) 0.001
+Definition of abbreviations : CI = confidence interval; COVID-19 = coronavirus disease; OR = odds ratio.
+*Model 1: Logistic regression adjusted for age, sex, assessment centers, Townsend deprivation index, income, education, body mass index,diet, physical activity, smoking, alcohol consumption, passive smoking, cardiovascular disease, hypertension, diabetes, chronic respiratoryinfections, asthma, relatedness of individuals in the sample, and first 10 principal components of ancestry; Pvalue for trend calculated treating
+the polygenic risk score as a continuous variable.
+†Model 2: Logistic regression adjusted for model 1 and preexisting chronic obstructive pulmonary disease; Pvalue for trend calculated treating
+the polygenic risk score as a continuous variable.
+Table 3. Risk of severe COVID-19 according to COPD
+Preexisting
+COPDTotal No. of
+ParticipantsNo. of Severe COVID-19
+Cases ( %)Model 1 * Model 2†
+OR (95 %CI) PValue OR (95 %CI) PValue
+No 384,934 571 (0.15) 1 (reference) 1 (reference)
+Yes 45,648 141 (0.31) 1.37 (1.12 –1.67) 0.002 1.37 (1.12 –1.67) 0.002
+Definition of abbreviations : CI = confidence interval; COPD = chronic obstructive pulmonary disease; COVID-19 = coronavirus disease; OR = odds
+ratio.*Model 1: Logistic regression adjusted for age, sex, assessment centers, Townsend deprivation index, income, education, body mass index,
+diet, physical activity, smoking, alcohol consumption, passive smoking, cardiovascular disease, hypertension, diabetes, chronic respiratory
+infections, asthma, relatedness of individuals in the sample, and first 10 principal components of ancestry.
+†Model 2: Logistic regression adjusted for model 1 and polygenic risk score.ORIGINAL RESEARCH
+62 AnnalsATS Volume 19 Number 1 | January 2022
+
+--- PAGE 6 ---
+Discussion
+In this population-based cohort study of
+more than 430,000 participants, both high
+genetic risk and COPD were independently
+associated with an increased risk of incidentsevere COVID-19. The risk of incident
+severe COVID-19 at high genetic risk
+combined with preexisting COPD was 2.05-
+fold higher than that at low genetic risk and
+without preexisting COPD.
+There are common variants that were
+previously identi ﬁed to be associated with
+the high risk of severe COVID-19, and
+their combined impact can be indicated by
+the PRS (5, 8). Our results demonstrated
+that the PRS was associated with the risk
+of developing severe COVID-19.
+Although the previous study has evaluated
+the predictive performance of PRSs based
+on six DNA polymorphisms in severeCOVID-19 among sports players to guide
+screening (12), the limited sample size
+with case –c o n t r o ld e s i g ni np r e v i o u s
+studies often led to discouraging results.
+In the present study, we found that our
+PRS was signi ﬁcantly associated with the
+risk of severe COVID-19 in a prospective
+cohort study. Our study has included a
+larger sample size and a signi ﬁcantly more
+comprehensive indicator of the genetic
+risk to increase the power for riskestimation. We have also adjusted for
+multiple potential confounding factors
+(economic and social background, lifestyle
+factors, comorbidities, etc.). Several
+genetic variants used in the present study
+associated with severe COVID-19 may
+a f f e c tt h ei m m u n er e s p o n s ea n dtransmission of SARS-CoV-2 (8, 41, 42).
+Furthermore, our results demonstratedthe lack of interactions between geneticrisk and preexisting COPD, whichsuggests that it provides informationregarding severe COVID-19 that isindependent of preexisting COPD. Theseﬁndings in the present study provided
+additional insights into the genetic basisof severe COVID-19, which would furtheradvance our understanding of severeCOVID-19 susceptibility.
+From a clinical perspective,
+methodologically similar to assessing otherdiseases by using PRS, our PRS may help toidentify individuals at the greatest risk forsevere COVID-19 (30, 43). The risk ofincident severe COVID-19 at high genetic
+risk was 1.50-fold higher than that at low
+genetic risk, suggesting that our PRSpotentially was suitable to the riskstratiﬁcation among those with COVID-19.
+In addition, the availability of the PRSthroughout the life course suggests that PRSm i g h tb eh e l p f u lf o rp r e d i c t i n gs e v e r eCOVID-19 in scenarios in which up-to-dateclinical information is not available (e.g.,COPD). From a disease managementperspective, the distinct incidence risk forpopulations within different categories of
+genetic risk as de ﬁned by the PRS provides
+s u p p o r tt oc a r r yo u tP R S - i n f o r m e ds e v e r eCOVID-19 screening and individualizedprevention, independent of clinical riskf a c t o r ss u c ha sa g e ,s e x ,a n dC O P De x p o s u r e .Furthermore, individuals with higher geneticr i s km i g h tb ew a r n e dt ob em o r el i k e l yt omaintain social distancing and carry out lifeplanning to reduce the risk of developingsevere COVID-19. Therefore, one potential
+application is using the PRS to help predictsusceptibility to severe COVID-19 in initiallyhealthy people, so as to focus preventiveinterventions on those at the highest risk ofsevere COVID-19 (10).
+Several studies have consistently
+reported an increased risk of developingsevere COVID-19 in participants withpreexisting COPD (17 –20). However, these
+ﬁndings are limited by small sample sizes and
+incomplete data on comorbidities, and therelevance of composite genetic risk andCOPD in predicting the risk of severeCOVID-19 remains unclear. Based on thepopulation-based cohort study, our resultsdemonstrated that participants withpreexisting COPD had increased risks of
+developing severe COVID-19 as compared
+with participants without preexisting COPD,regardless of the individuals ’genetic risk.
+Moreover, the real-life setting of our large-scale cohort study has provided furthersupport that COPD is a risk factor for severeCOVID-19, even in participants geneticallynot predisposed to developing severeCOVID-19. Although the underlyingmechanisms remain to be elucidated, it issuggested that angiotensin-convertingenzyme 2 plays an important role in this
+association. Studies of cellular mechanisms
+suggest that angiotensin-converting enzyme 2expression, which is the main receptor for thecellular entry of SARS-CoV-2, is signi ﬁcantly
+u p r e g u l a t e di np a r t i c i p a n t sw i t hC O P D( 7 ,44). The ﬁndings in the present study indicate
+that patients with COPD should follow basicinfection-control measures to help preventsevere COVID-19, and medical workers
+0.5No Pre-existing COPDSubgroupTotal No. of
+ParticipantsSevere COVID-19
+Cases (%)Odds Ratio
+(95% CI)
+Low genetic risk
+Intermediate genetic riskHigh genetic risk
+Pre-existing COPD
+Low genetic risk
+Intermediate genetic riskHigh genetic risk76,900
+231,108
+76,926
+9,199
+27,255
+9,19489 (0.12)
+351 (0.15)
+131 (0.17)
+20 (0.22)
+87 (0.32)
+34 (0.37)P-value
+0.02
+0.005
+0.38
+<0.001<0.001
+2
+Odds Ratio (95% CI)3 3.51.00 [Reference]
+1.31 (1.05–1.67)
+1.47 (1.12–1.93)
+2.05 (1.35–3.04)
+11.25 (0.74–2.00)
+1.83 (1.35–2.48)
+Figure 2. Risk of severe COVID-19 according to genetic risk and COPD. The results were obtained after adjusting for age, sex, assessment
+centers, Townsend deprivation index, income, education, body mass index, diet, physical activity, smoking, alcohol consumption, passivesmoking, cardiovascular disease, hypertension, diabetes, chronic respiratory infections, asthma, relatedness of individuals in the sample, andfirst 10 principal components of ancestry; Pvalue for trend calculated treating the polygenic risk score as a continuous variable. CI = confidence
+interval; COPD = chronic obstructive pulmonary disease; COVID-19 = coronavirus disease.ORIGINAL RESEARCH
+Huang, Zhang, Li, et al. : Genetic Risk, COPD, and Severe COVID-19 63
+
+--- PAGE 7 ---
+should pay more attention to patients with
+COPD who are infected with COVID-19.
+There are several limitations that should
+be taken into account. First, we have limited
+information about the exposure to SARS-CoV-2 among participants without
+COVID-19 in the UK Biobank, which might
+have resulted in the selection bias, as inprevious studies (45, 46). However, thisconcern is mitigated because these results did
+not markedly change after restricting
+analyses to participants with SARS-CoV-2test and participants with positive SARS-
+CoV-2 test results. Second, additional
+variants or genetic patterns associated withsevere COVID-19 are likely to be identi ﬁed
+in the future, which may prove useful for
+reﬁning estimates of genetic risk. Third,
+because the PRS was calculated based on the
+GWAS of European ancestry, we must
+cautiously generalize the inferences to otherpopulations. Individuals of Black, Asian, andother minority race or ethnicity groups may
+be at increased risk for SARS-CoV-2infection and potentially worse clinical
+outcomes, including ICU admission andmortality, when compared with White
+individuals (47). Race refers to
+self-identifying groups based on beliefsconcerning shared culture, ancestry, and
+history (48). And ancestry is determined
+biographically or genetically. Althoughrace may be a social construct, differencesin genetic ancestry that happen to
+correlate to many of today ’sr a c i a l
+constructs are real (49). As such, theﬁndings in our study highlight that future
+GWASs and large-scale epidemiologic
+research should consider predicting therisk of incident severe COVID-19 among
+non-European ancestry groups. Fourth,
+the measures did not include informationabout the epidemiology of COVID-19 and
+medical care practices to treat COVID-19
+infections, such as type of virus and use ofdrug, possibly leading to imprecisemeasurements. Finally, there are very few
+severe COVID-19 cases amongparticipants in the UK Biobank, which
+might reduce the power in these analyses.
+Thus, further research involving more
+patients with severe COVID-19 is neededin the future.
+Conclusions
+PRSs combining multiple risk alleles are
+predictive of incident severe COVID-19.
+Meanwhile, high genetic risk was associatedwith a higher risk of incident severe COVID-
+19, regardless of preexisting COPD. These
+ﬁndings could have important implications
+for understanding the mechanisms
+underlying severe COVID-19 and providefuture opportunities for risk strati ﬁcation
+and early intervention. /H17039
+Author disclosures are available with the
+text of this article at www.atsjournals.org .
+Acknowledgment: The authors thank all the
+investigators and participants in the UK
+Biobank.
+References
+1 COVID-19 coronavirus pandemic. 2020 [updated 2020 Jul 3; accessed
+2020 Apr 12]. Available from: https://www.worldometers.info/
+coronavirus .
+2 Ioannidis JPA. Infection fatality rate of COVID-19 inferred
+from seroprevalence data. Bull World Health Organ 2021;99:19 –33F.
+3 Vetter P, Vu DL, L'Huillier AG, Schibler M, Kaiser L, Jacquerioz F. Clinical
+features of covid-19. BMJ 2020;369:m1470.
+4 Phua J, Weng L, Ling L, Egi M, Lim CM, Divatia JV, et al. ; Asian Critical
+Care Clinical Trials Group. Intensive care management of coronavirusdisease 2019 (COVID-19): challenges and recommendations. Lancet
+Respir Med 2020;8:506 –517.
+5 Ellinghaus D, Degenhardt F, Bujanda L, Buti M, Albillos A, Invernizzi P,
+et al. ; Severe Covid-19 GWAS Group. Genomewide association study
+of severe Covid-19 with respiratory failure. N Engl J Med 2020;383:
+1522 –1534.
+6 COVID-19 Host Genetics Initiative. The COVID-19 Host Genetics
+Initiative, a global initiative to elucidate the role of host genetic factors in
+susceptibility and severity of the SARS-CoV-2 virus pandemic. Eur J
+Hum Genet 2020;28:715 –718.
+7 Zhou P, Yang XL, Wang XG, Hu B, Zhang L, Zhang W, et al. A
+pneumonia outbreak associated with a new coronavirus of probable batorigin. Nature 2020;579:270 –273.
+8 Kuo CL, Pilling LC, Atkins JL, Masoli JAH, Delgado J, Kuchel GA, et al.
+APOE e4 genotype predicts severe COVID-19 in the UK Biobank
+community cohort. J Gerontol A Biol Sci Med Sci 2020;75:
+2231 –2232.
+9 Guo X, Chen Z, Xia Y, Lin W, Li H. Investigation of the genetic variation
+in ACE2 on the structural recognition by the novel coronavirus (SARS-CoV-2). JT r a n s lM e d 2020;18:321.
+10 Torkamani A, Wineinger NE, Topol EJ. The personal and clinical utility of
+polygenic risk scores. Nat Rev Genet 2018;19:581 –590.
+11 Purcell SM, Wray NR, Stone JL, Visscher PM, O ’Donovan MC, Sullivan
+PF,et al. ; International Schizophrenia Consortium. Common polygenic
+variation contributes to risk of schizophrenia and bipolar disorder.Nature 2009;460:748 –752.
+12 Ahmetov II, Borisov OV, Semenova EA, Andryushchenko ON,
+Andryushchenko LB, Generozov EV, et al. Team sport, power, andcombat athletes are at high genetic risk for coronavirus disease-2019
+severity. J Sport Health Sci 2020;9:430 –431.
+13 Shrine N, Guyatt AL, Erzurumluoglu AM, Jackson VE, Hobbs BD,
+Melbourne CA, et al. ; Understanding Society Scientific Group. New
+genetic signals for lung function highlight pathways and chronic
+obstructive pulmonary disease associations across multiple ancestries.
+Nat Genet 2019;51:481 –493.
+14 biobank
+ukrelease BNsUBrt. 2018 [updated 2018 Aug 1; accessed 2020
+Apr 12]. Available from: http://www.nealelab.is/uk-biobank/ .
+15 Saheb Sharif-Askari N, Saheb Sharif-Askari F, Alabed M, Temsah MH,
+Al Heialy S, Hamid Q, et al. Airways expression of SARS-CoV-2
+receptor, ACE2, and TMPRSS2 is lower in children than adults and
+increases with smoking and COPD. Mol Ther Methods Clin Dev
+2020;18:1 –6.
+16 Sun W, Kechris K, Jacobson S, Drummond MB, Hawkins GA, Yang J,
+et al. ; SPIROMICS Research Group; COPDGene Investigators.
+Common genetic polymorphisms influence blood biomarker
+measurements in COPD. PLoS Genet 2016;12:e1006011.
+17 Lippi G, Henry BM. Chronic obstructive pulmonary disease is associated
+with severe coronavirus disease 2019 (COVID-19). Respir Med 2020;
+167:105941.
+18 Wang B, Li R, Lu Z, Huang Y. Does comorbidity increase the risk of
+patients with COVID-19: evidence from meta-analysis. Aging (Albany
+NY)2020;12:6049 –6057.
+19 Zhao Q, Meng M, Kumar R, Wu Y, Huang J, Lian N, et al. The impact
+of COPD and smoking history on the severity of COVID-19: A
+systemic review and meta-analysis. JM e dV i r o l 2020;92:1915 –
+1921.
+20 Wang L, He W, Yu X, Hu D, Bao M, Liu H, et al. Coronavirus disease
+2019 in elderly patients: Characteristics and prognostic factors based
+on 4-week follow-up. J Infect 2020;80:639 –645.
+21 Ovsyannikova IG, Haralambieva IH, Crooke SN, Poland GA, Kennedy
+RB. The role of host genetics in the immune response to SARS-CoV-2
+and COVID-19 susceptibility and severity. Immunol Rev 2020;296:
+205 –219.
+22 Sudlow C, Gallacher J, Allen N, Beral V, Burton P, Danesh J, et al. UK
+biobank: an open access resource for identifying the causes of a wide
+range of complex diseases of middle and old age. PLoS Med 2015;12:
+e1001779.ORIGINAL RESEARCH
+64 AnnalsATS Volume 19 Number 1 | January 2022
+
+--- PAGE 8 ---
+23 Palmer LJUK. UK Biobank: bank on it. Lancet 2007;369:1980 –1982.
+24 Li ZH, Zhong WF, Liu S, Kraus VB, Zhang YJ, Gao X, et al. Associations
+of habitual fish oil supplementation with cardiovascular outcomes andall cause mortality: evidence from a large population based cohortstudy. BMJ 2020;368:m456.
+25 McKay JD, Hung RJ, Han Y, Zong X, Carreras-Torres R, Christiani DC,
+et al. ; SpiroMeta Consortium. Large-scale association analysis
+identifies new lung cancer susceptibility loci and heterogeneity ingenetic susceptibility across histological subtypes. Nat Genet 2017;49:
+1126 –1132.
+26 Dai J, Lv J, Zhu M, Wang Y, Qin N, Ma H, et al. Identification of risk loci
+and a polygenic risk score for lung cancer: a large-scale prospective cohort
+study in Chinese populations. Lancet Respir Med 2019;7:881 –891.
+27 Broderick P, Wang Y, Vijayakrishnan J, Matakidou A, Spitz MR, Eisen T,
+et al. Deciphering the impact of common genetic variation on lung
+cancer risk: a genome-wide association study. Cancer Res 2009;69:
+6633 –6641.
+28 Li Y, Sheu CC, Ye Y, de Andrade M, Wang L, Chang SC, et al. Genetic
+variants and risk of lung cancer in never smokers: a genome-wideassociation study. Lancet Oncol 2010;11:321 –330.
+29 Lourida I, Hannon E, Littlejohns TJ, Langa KM, Hypp €onen E, Kuzma E,
+et al. Association of lifestyle and genetic risk with incidence of
+dementia. JAMA 2019;322:430 –437.
+30 Khera AV, Emdin CA, Drake I, Natarajan P, Bick AG, Cook NR, et al.
+Genetic risk, adherence to a healthy lifestyle, and coronary disease. N
+Engl J Med 2016;375:2349 –2358.
+31 Doiron D, de Hoogh K, Probst-Hensch N, Fortier I, Cai Y, De Matteis S,
+et al. Air pollution, lung function and COPD: results from the population-
+based UK Biobank study. Eur Respir J 2019;54:1802140.
+32 Miller MR, Hankinson J, Brusasco V, Burgos F, Casaburi R, Coates A,
+et al. ; ATS/ERS Task Force. Standardisation of spirometry. Eur Respir
+J2005;26:319 –338.
+33 De Matteis S, Jarvis D, Hutchings S, Darnton A, Fishwick D, Sadhra
+S,et al. Occupations associated with COPD risk in the large
+population-based UK Biobank cohort study. Occup Environ Med
+2016;73:378 –384.
+34 Quanjer PH, Stanojevic S, Cole TJ, Baur X, Hall GL, Culver BH, et al. ;
+ERS Global Lung Function Initiative. Multi-ethnic reference values forspirometry for the 3-95-yr age range: the global lung function 2012equations. Eur Respir J 2012;40:1324 –1343.
+35 Society ER. Spirometry Equation Tools - R Macro. e-learning resources.
+2017 [updated 2017; accessed 2020 Nov 22]. Available from: http://
+www.ers-education.org/guidelines/global-lung-function-initiative/
+spirometry-tools/r-macro.aspx .
+36 Global Initiative for Chronic Obstructive Lung Disease (GOLD). Global
+Strategy for the Diagnosis, Management, and Prevention of COPD.2020 [accessed 2020 Nov 22]. Available from http://goldcopd.org .37 Tyrrell J, Jones SE, Beaumont R, Astley CM, Lovell R, Yaghootkar H,
+et al. Height, body mass index, and socioeconomic status: mendelian
+randomisation study in UK Biobank. BMJ 2016;352:i582.
+38 Bassett DR Jr. International physical activity questionnaire: 12-country
+reliability and validity. Med Sci Sports Exerc 2003;35:1396.
+39 Ali Mohsenpour M, Fallah-Moshkani R, Ghiasvand R, Khosravi-Boroujeni
+H, Mehdi Ahmadi S, Brauer P, et al. Adherence to Dietary Approaches
+to Stop Hypertension (DASH)-style diet and the risk of cancer: a
+systematic review and meta-analysis of cohort studies. JA mC o l lN u t r
+2019;38:513 –525.
+40 Appel LJ, Moore TJ, Obarzanek E, Vollmer WM, Svetkey LP, Sacks FM,
+et al. ; DASH Collaborative Research Group. A clinical trial of the
+effects of dietary patterns on blood pressure. N Engl J Med 1997;336:
+1117 –1124.
+41 Schreiber G. The molecular basis for differential type I interferon
+signaling. J Biol Chem 2017;292:7285 –7294.
+42 Mendonca P, Soliman KFA. Flavonoids activation of the transcription
+factor Nrf2 as a hypothesis approach for the prevention andmodulation of SARS-CoV-2 infection severity. Antioxidants
+2020;9:659.
+43 Mavaddat N, Pharoah PD, Michailidou K, Tyrer J, Brook MN, Bolla MK,
+et al. Prediction of breast cancer risk based on profiling with common
+genetic variants. J Natl Cancer Inst 2015;107:djv036.
+44 Leung JM, Yang CX, Tam A, Shaipanich T, Hackett TL, Singhera GK, et al.
+ACE-2 expression in the small airway epithelia of smokers andCOPD patients: implications for COVID-19. Eur Respir J 2020;
+55:2000688.
+4 5 Z h uZ ,H a s e g a w aK ,M aB ,F u j i o g iM ,C a m a r g oC AJ r ,L i a n gL .
+Association of asthma and its genetic predisposition with therisk of severe COVID-19. J Allergy Clin Immunol 2020;146:327 –
+329.e4.
+46 Zhu Z, Hasegawa K, Ma B, Fujiogi M, Camargo CA, Jr., Liang L.
+Association of obesity and its genetic predisposition with the risk ofsevere COVID-19: Analysis of population-based cohort data.
+Metabolism 2020;112:154345.
+47 Pan D, Sze S, Minhas JS, Bangash MN, Pareek N, Divall P, et al. The
+impact of ethnicity on clinical outcomes in COVID-19: a systematicreview. EClinicalMedicine 2020;23:100404.
+48 Little W, McGivern R, Keirns N, Strayer E, Griffiths H, Cody-Rydzewski S,
+et al. Introduction to Sociology - 1st Canadian Edition. BCcampus
+Open Publishing. 2014. ISBN-10: BCCAMPUS0072. 2014 [accessed
+2021 Apr 28]. Available from: https://opentextbc.ca/
+introductiontosociology/chapter/chapter11-race-and-ethnicity/
+49 Reich D. How Genetics Is Changing Our Understanding of ‘Race ’.The
+New York Times . 2018 [updated 2018 Mar 23; accessed 2021 Apr 28].
+Available from: https://www.nytimes.com/2018/03/23/opinion/sunday/
+genetics-race.html .ORIGINAL RESEARCH
+Huang, Zhang, Li, et al. : Genetic Risk, COPD, and Severe COVID-19 65

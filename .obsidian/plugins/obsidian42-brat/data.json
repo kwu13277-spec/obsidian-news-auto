@@ -1,0 +1,29 @@
+{
+  "pluginList": [
+    "UltimateAI-org/aitoolsforobsidian",
+    "banpie/bp-ob-rednote"
+  ],
+  "pluginSubListFrozenVersion": [
+    {
+      "repo": "UltimateAI-org/aitoolsforobsidian",
+      "version": ""
+    },
+    {
+      "repo": "banpie/bp-ob-rednote",
+      "version": ""
+    }
+  ],
+  "themesList": [],
+  "updateAtStartup": true,
+  "updateThemesAtStartup": true,
+  "enableAfterInstall": true,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": false,
+  "notificationsEnabled": true,
+  "globalTokenName": "",
+  "personalAccessToken": "",
+  "selectLatestPluginVersionByDefault": false,
+  "allowIncompatiblePlugins": false
+}
